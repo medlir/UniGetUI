@@ -362,8 +362,8 @@ namespace UniGetUI.Interface
             ColumnDefinition ContentColumn = __content_root.ColumnDefinitions[1];
             ContentColumn.Width = new GridLength(1, GridUnitType.Star);
 
-            ColumnDefinition SpashScreenColumn = __content_root.ColumnDefinitions[0];
-            SpashScreenColumn.Width = new GridLength(0, GridUnitType.Pixel);
+            ColumnDefinition SplashScreenColumn = __content_root.ColumnDefinitions[0];
+            SplashScreenColumn.Width = new GridLength(0, GridUnitType.Pixel);
         }
 
         public void ApplyTheme()
